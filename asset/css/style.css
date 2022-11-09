@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+  color: #8d8d8d;
+  background-color: #faf4f2;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background-color: #f8e1db;
+  padding: 10px 70px;
+}
+.header a {
+  display: inline-block;
+}
+
+.header__nav ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.header__nav ul a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #3b3735;
+}
+
+.header__nav li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.header__nav .active a {
+  color: brown;
+}
+
+.carousel {
+  background-image: url(../img/BG.png);
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+
+.activities {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.activities__title {
+  padding: 15px;
+}
+
+.activities__title h2 {
+  font-size: 24px;
+}
+
+.activities__item {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+
+.activities__car {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.activities__img {
+  position: relative;
+}
+
+.activities__img img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.activities__love {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  color: #e76f51;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.activities__detail h3 {
+  color: #000;
+  padding: 10px;
+}
+
+.activities__detail p {
+  padding: 10px 0;
+}
+
+.activities__detail button {
+  padding: 10px 50px;
+  border-radius: 15px;
+  border: none;
+  font-size: 15px;
+  color: #524949;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.activities__all button {
+  padding: 15px 70px;
+  border: 1px solid brown;
+  border-radius: 20px;
+  color: brown;
+  margin: 15px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact {
+  background-color: #f8e1db;
+  border-radius: 0 20px 20px 0;
+  margin: 50px 0;
+}
+
+.contact__right {
+  margin-top: 45px;
+}
+
+.contact__left,
+.contact__right {
+  float: left;
+  width: 50%;
+  padding: 13px 60px;
+}
+
+.contact__left {
+  background-image: url(/asset/img/mask.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.contact__left img {
+  transform: translate(122px, 6px);
+}
+
+.contact__right h2 {
+  margin-top: 20px;
+}
+
+.contact__right p {
+  padding: 15px 0;
+}
+
+.contact__app,
+.contact__us {
+  float: left;
+  width: 50%;
+}
+
+.contact__app img {
+  float: left;
+  width: 40%;
+  margin-right: 10px;
+}
+
+.contact__app h3 {
+  padding: 15px 0;
+}
+
+.contact__us h3 {
+  padding: 15px 0;
+}
+
+.contact__us i {
+  font-size: 20px;
+  margin-right: 5px;
+  color: #ed6969;
+}
+
+.footer {
+  background-color: #f8e1db;
+  border-radius: 100px 100px 0 0;
+  padding: 50px 30px;
+  color: #3b3735;
+  margin-top: 90px;
+  padding-top: 75px;
+}
+
+.footer__about h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer__about {
+  float: left;
+  width: 40%;
+  line-height: 28px;
+  padding: 0 20px;
+}
+
+.footer__list {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.footer__item {
+  float: left;
+  width: 33.33%;
+}
+
+.footer__item li {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.footer__item a {
+  text-decoration: none;
+  color: #3b3735;
+}
+
+.footer__copyrights p {
+  text-align: center;
+  margin-top: 50px;
+}
